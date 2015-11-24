@@ -12,7 +12,7 @@ public class MainActivity extends ListActivity {
 
     final static String TAG = MainActivity.class.getName();
 
-    String [] pruebas = {"pruebas1","prueba2","prueba3"};
+    String [] pruebas = {"CicloDeVida","Pulsame1","Intents_Act_01","Intents_Act_02"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

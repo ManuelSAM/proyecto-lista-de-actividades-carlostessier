@@ -17,6 +17,37 @@
         </activity>
         <activity android:name=".pruebas1" >
         </activity>
+        <activity android:name=".CicloDeVida" >
+        </activity>
+        <activity
+            android:name=".Pulsame"
+            android:label="@string/title_activity_pulsame"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".Pulsame1" >
+        </activity>
+        <activity android:name=".Intents_Act_01" >
+        </activity>
+        <activity android:name=".Intents_Act_01_b" >
+            <intent-filter>
+                <action android:name="es.carlostessier.mispruebas.Intents_Act_01_b" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Intents_Act_02" >
+        </activity>
+        <activity android:name=".Intents_Act_02_b" >
+            <intent-filter>
+                <action android:name="es.carlostessier.mispruebas.Intents_Act_02_b" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Intents_Act_03" >
+        </activity>
+        <activity android:name=".Intents_Act_03_b" >
+        </activity>
     </application>
 
 </manifest>
