@@ -12,7 +12,7 @@ public class MainActivity extends ListActivity {
 
     final static String TAG = MainActivity.class.getName();
 
-    String [] pruebas = {"CicloDeVida","Pulsame1","Intents_Act_01","Intents_Act_02"};
+    String[] pruebas = {"CicloDeVida", "Pulsame1", "Intents_Act_01", "Intents_Act_02", "Intents_Act_03", "ImplicitIntents", "BroadcastReceiver"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,21 +25,21 @@ public class MainActivity extends ListActivity {
                         pruebas);
 
         setListAdapter(adapter);
+
     }
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
         String prueba = pruebas[position];
-        Log.d(TAG,"Pulsado "+prueba);
+        Log.d(TAG, "Pulsado " + prueba);
 
-        try{
-            Class<?> clase = Class.forName("es.carlostessier.mispruebas."+prueba);
-            Intent intent = new Intent(this,clase);
+        try {
+            Class<?> clase = Class.forName("es.carlostessier.mispruebas." + prueba);
+            Intent intent = new Intent(this, clase);
             startActivity(intent);
-        }
-        catch(ClassNotFoundException e){
-            Log.d(TAG,"Error no encuentro la clase",e);
+        } catch (ClassNotFoundException e) {
+            Log.d(TAG, "Error no encuentro la clase", e);
         }
     }
 }

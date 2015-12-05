@@ -3,9 +3,15 @@
     <string name="title_activity_pulsame">Pulsame</string>
     <string name="buttonPush"> Pulsame </string>
     <string name="btnText1">Muestra la segunda actividad</string>
-    <string name="frase1">¡Esta es la segunda actividad</string>
-    <string name="frase2">Por favor, introduce tu nombre</string>
     <string name="btnText2">Aceptar</string>
+    <string name="btnText3">Pulsa aquí para volver a la actividad principal</string>
+    <string name="btnTextWeb">www.uem.es</string>
+    <string name="btnTextTelf">Teléfono UEM</string>
+    <string name="btnTextLoc">Localización UEM</string>
+    <string name="btnTextBrReceiver">Broadcast Intent</string>
+    <string name="frase1">¡Esta es la segunda actividad!</string>
+    <string name="frase2">Por favor, introduce tu nombre</string>
+
 
     <plurals name="numberOfPush">
         <item quantity="one">Pulsado %d vez</item>
